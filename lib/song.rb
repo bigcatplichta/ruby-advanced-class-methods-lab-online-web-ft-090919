@@ -52,6 +52,6 @@ class Song
     song.name = title[1].chomp(".mp3")
     song.artist_name = title[0]
     
-    binding.pry
+    # binding.pry
   end
 end
