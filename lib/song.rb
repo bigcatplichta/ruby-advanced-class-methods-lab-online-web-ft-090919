@@ -54,4 +54,8 @@ class Song
     song
     # binding.pry
   end
+  
+  def create_from_file_name(file_name)
+    
+  end 
 end
