@@ -51,7 +51,7 @@ class Song
     song = self.new 
     song.name = title[1].chomp(".mp3")
     song.artist_name = title[0]
-    
+    song
     # binding.pry
   end
 end
